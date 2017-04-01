@@ -10,7 +10,7 @@ Linus 在 1991 年创建了 Linux。
 
 2005 年，开发 Samba 的 Andrew 试图破解 BitKeeper 的协议，被 BitMover 公司发现了，于是要收回 Linux 社区的免费使用权。
 
-Linus 用两周时间用 C 写了一个分布式版本控制系统 Git 。一个月之后，Linux 系统的源码由 Git 管理。
+Linus 花两周时间用 C 写了一个分布式版本控制系统 Git 。一个月之后，Linux 系统的源码由 Git 管理。
 
 Git 迅速成为最流行的分布式版本控制系统。
 
