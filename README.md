@@ -8,6 +8,7 @@ Let's learn some git!
 1. [如何查看提交历史](docs/basics/log.md)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
+1. [Merging 和 Rebasing 有什么区别？](docs/merging_vs_rebasing.md)
 
 ## 教程列表
 1. [Git教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
@@ -17,3 +18,4 @@ Let's learn some git!
 ## 资源列表
 1. [Git - Reference](https://git-scm.com/docs)
 1. [GitHub Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+1. [Emoji cheat sheet for Github, Basecamp and other services](http://emoji-cheat-sheet.com/)
