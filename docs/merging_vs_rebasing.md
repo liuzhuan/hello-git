@@ -90,7 +90,3 @@ pick 5c67e61 Message for commit #3
 rebase 会把所有 master 提交节点移动到 feature 分支提交历史的顶端。问题是这个变动只是发生在你的仓库，其他人还继续在原来 master 分支工作。因为 rebase 产生了全新提交，Git 会认为你的 master 分支已经与其他人的 master 分支产生分歧。
 
 所以，执行 `git rebase` 前，一定先问问自己，“有没有其他人也在这个分支做开发？”如果回答“有”，马上离开键盘，考虑一种无损的方式（比如，`git revert` 命令）。如果只是自己开发，你可以随心所欲的修改历史。
-
-## Workfow walkthrough
-
-## Summary
