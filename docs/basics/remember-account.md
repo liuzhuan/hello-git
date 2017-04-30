@@ -65,6 +65,11 @@ To configure your GitHub account to use your new SSH key, you'll also need to ad
 
 After you've set up your SSH key and added it to your GitHub account, you can test your connection.
 
+```
+ssh -T git@github.com
+# Attempts to ssh to GitHub
+```
+
 ## Working with SSH key passphrases
 
 You can secure your SSH keys and configure an authentication agent so that you won't have to reenter your passphrase every time you use your SSH keys.
