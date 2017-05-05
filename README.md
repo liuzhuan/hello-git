@@ -7,6 +7,7 @@ Let's learn some git!
 1. [如何设置用户名和邮箱？](docs/basics/name-email.md)
 1. [How to set up alias?](docs/basics/alias.md)
 1. [How to remember username and password?](./docs/basics/remember-account.md)
+1. [How to cache github password in git?](./docs/basics/caching-your-github-password-in-git.md)
 1. [如何查看提交历史](docs/basics/log.md)
     * [高级篇](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
