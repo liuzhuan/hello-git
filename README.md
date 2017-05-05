@@ -14,6 +14,7 @@ Let's learn some git!
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
 1. [Merging 和 Rebasing 有什么区别？](docs/merging_vs_rebasing.md)
 1. [What is git credentials?](https://git-scm.com/docs/gitcredentials)
+1. [How do I make Git use the editor of my choice for commits?](./docs/basics/how-do-i-make-git-use-the-editor-of-my-choice-for-commits.md)
 
 ## 教程列表
 1. [Git教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
