@@ -75,3 +75,5 @@ ssh -T git@github.com
 You can secure your SSH keys and configure an authentication agent so that you won't have to reenter your passphrase every time you use your SSH keys.
 
 > **passphrase**: A passphrase is a sequence of words or other text used to control access to a computer system, program or data. A passphrase is similar to a password in usage, but is generally longer for added security.
+
+[Reviewing your SSH keys](./reviewing-your-ssh-keys.md)

@@ -4,7 +4,7 @@ https://help.github.com/articles/caching-your-github-password-in-git/
 
 If you're cloning GitHub repositories using HTTPS, you can use a credential helper to tell Git to remember your GitHub username and password every time it talks to GitHub.
 
-If you clone GitHub repositories using SSH, then you authenticate using SSH keys instead of a username and password. For help setting up an SSH connection, see Generating an SSH Key.
+If you clone GitHub repositories using SSH, then you authenticate using SSH keys instead of a username and password. For help setting up an SSH connection, see [Generating an SSH Key](./remember-account.md).
 
 > Tip: You need Git 1.7.10 or newer to use the credential helper.
 
