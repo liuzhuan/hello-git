@@ -24,4 +24,4 @@ Let's learn some git!
 ## 资源列表
 1. [Git - Reference](https://git-scm.com/docs)
 1. [GitHub Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
-1. [Emoji cheat sheet for Github, Basecamp and other services](http://emoji-cheat-sheet.com/)
+1. [Emoji cheat sheet](./docs/emoji-cheat-sheet.md)
