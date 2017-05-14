@@ -23,8 +23,6 @@ git submodule update --remote DbConnector
 
 # check submodule updates info
 git diff --submodule
-
-
 ```
 
 Submodules allow you to keep a Git repository as a subdirectory of another Git repository. This lets you clone another repository into your project and keep your commits separate.
