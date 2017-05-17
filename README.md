@@ -18,6 +18,7 @@ Let's learn some git!
 1. [What is Git Hooks?](./docs/basics/customizing-git-git-hooks.md)
 1. [How to Working with remotes?](./books/pro-git/working-with-remotes.md)
 1. [How to use submodules?](./books/pro-git/git-tools-submodules.md)
+1. [How to use git stash?](./docs/basics/git-stash-usage.md)
 
 ## 教程列表
 1. [Git教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
