@@ -31,6 +31,8 @@ git pull mirror master # 将 mirror 版本库中的数据同步到本地
 git tag v1 # 创建里程碑
 
 git format-patch v1.. HEAD # 将从 v1 开始的历次提交逐一导出为补丁文件
+
+git send-email *.patch # 通过邮件将补丁文件发出
 ```
 
 ## REF
