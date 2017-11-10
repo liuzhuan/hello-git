@@ -32,3 +32,4 @@ Let's learn some git!
 1. [Git - Reference](https://git-scm.com/docs)
 1. [GitHub Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 1. [Emoji cheat sheet](./docs/emoji-cheat-sheet.md)
+1. [Git CheatSheet](./docs/git-cheat-sheet.md) :+1:
