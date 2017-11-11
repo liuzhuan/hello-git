@@ -15,6 +15,8 @@ patch -R hello < diff.txt
 ## git 基本操作
 
 ```sh
+git --version # 查看 git 版本
+
 git init # 版本库初始化
 
 git add # 将修改内容加入提交暂存区
@@ -33,8 +35,18 @@ git commit -a
 git commit -m 'initialized'
 git commit --amend # 修改提交说明
 
+# mac os 全局变量储存在 ~/.gitconfig 文件中
+git config --system alias.st status # 让其他用户也可以使用
+git config --system alias.br branch
+git config --system alias.ci commit
+git config --system alias.co checkout
 git config --global color.ui true # 彩色字符输出
 git config --global core.pager 'less -+$ LESS -FRX' # 改变分页器的默认行为
+git config --global core.quotepath false # 解决中文文件名在命令行的显示问题（八进制字符编码）
+git config --global i18n.logOutputEncoding gbk # 设置显示提交说明所使用的字符集
+git config --global i18n.commitEncoding gbk # 设置录入提交说明的字符集
+git config --global user.name "Liu Zhuan"
+git config --global user.email liuzhuankyzy@gmail.com
 
 git diff
 git diff --word-diff # 进行逐字比较
@@ -56,6 +68,9 @@ git commit --amend
 
 git stash # 保存工作进度
 git stash pop # 恢复之前保存的工作进度
+
+git status # 显示工作区文件状态
+git status -s # 简短模式
 
 git tag # 查看里程碑
 git tag v1 # 创建里程碑
@@ -106,6 +121,12 @@ git tag
 git checkout v1.7.4.1
 make prefix=/usr/local all doc info
 sudo make prefix=/usr/local install install-doc install-html install-info
+
+# Mac OS
+
+## Homebrew
+brew install git
+brew list # 查看安装的开源软件包
 ```
 
 ## git with svn
