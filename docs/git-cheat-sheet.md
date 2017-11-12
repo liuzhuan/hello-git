@@ -36,6 +36,9 @@ git commit -m 'initialized'
 git commit --amend # 修改提交说明
 
 # mac os 全局变量储存在 ~/.gitconfig 文件中
+git config -e # 编辑当前库的信心
+git config -e --global # 编辑全局配置文件
+git config -e --system # 修改系统级配置参数
 git config --system alias.st status # 让其他用户也可以使用
 git config --system alias.br branch
 git config --system alias.ci commit
@@ -61,6 +64,10 @@ git pull mirror master # 将 mirror 版本库中的数据同步到本地
 git rebase -i <commit-id>^ # 修改 <commit-id> 对应的提交说明
 
 git reset --hard
+
+git rev-parse --git-dir # 显示版本库 .git 目录所在的位置
+git rev-parse --show-prefix # 相对于工作区根目录的相对目录
+git rev-parse --show-cdup # 显示从当前目录后退到工作区的根的深度
 
 # 删除不应提交的大文件
 git rm --cached winxp.img
