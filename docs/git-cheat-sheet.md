@@ -65,6 +65,9 @@ git rebase -i <commit-id>^ # 修改 <commit-id> 对应的提交说明
 
 git reset --hard
 
+# Show the first commit
+git rev-list --max-parents=0 HEAD
+
 git rev-parse --git-dir # 显示版本库 .git 目录所在的位置
 git rev-parse --show-prefix # 相对于工作区根目录的相对目录
 git rev-parse --show-cdup # 显示从当前目录后退到工作区的根的深度
