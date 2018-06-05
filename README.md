@@ -10,6 +10,7 @@ Let's learn some git!
 1. [How to cache github password in git?](./docs/basics/caching-your-github-password-in-git.md)
 1. [如何查看提交历史](docs/basics/log.md)
     * [高级篇](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
 1. [Merging 和 Rebasing 有什么区别？](docs/merging_vs_rebasing.md)
