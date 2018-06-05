@@ -22,6 +22,6 @@ $ git rebase -i HEAD~3
 
 ## REF
 
-- [7.6 Git Tools - Rewriting History][rewrite]
+- [7.6 Git Tools - Rewriting History][rewrite], Pro Git v2.
 
 [rewrite]: https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
