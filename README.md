@@ -9,7 +9,6 @@ Let's learn some git!
 1. [How to remember username and password?](./docs/basics/remember-account.md)
 1. [How to cache github password in git?](./docs/basics/caching-your-github-password-in-git.md)
 1. [如何查看提交历史](docs/basics/log.md)
-    * [高级篇](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
@@ -22,6 +21,7 @@ Let's learn some git!
 1. [How to use git stash?](./docs/basics/git-stash-usage.md)
 1. [How to use tag?](./docs/basics/git-tag.md)
 1. [如何参与贡献开源项目？](./docs/contribute/README.md)
+1. [如何停止追踪仓库中已有的文件](docs/rm/README.md)
 
 ## 教程列表
 1. [Git教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
