@@ -5,8 +5,8 @@ Let's learn some git!
 
 1. [如何诞生？](docs/history/birth.md)
 1. [如何设置？](docs/basics/config.md)
+1. [如何基础操作？](docs/basics/abc.md)
 1. [How to set up alias?](docs/basics/alias.md)
-1. [如何查看提交历史](docs/basics/log.md)
 1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
