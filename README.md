@@ -3,11 +3,9 @@ Let's learn some git!
 
 ## 问题列表
 
-1. [Git 是如何诞生的？](docs/history/birth.md)
-1. [如何设置用户名和邮箱？](docs/basics/name-email.md)
+1. [如何诞生？](docs/history/birth.md)
+1. [如何设置？](docs/basics/config.md)
 1. [How to set up alias?](docs/basics/alias.md)
-1. [How to remember username and password?](./docs/basics/remember-account.md)
-1. [How to cache github password in git?](./docs/basics/caching-your-github-password-in-git.md)
 1. [如何查看提交历史](docs/basics/log.md)
 1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何更改远程仓库地址？](docs/change-remote-repository.md)
