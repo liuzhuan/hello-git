@@ -8,7 +8,7 @@ Let's learn some git!
 1. [如何基础操作？](docs/basics/abc.md)
 1. [如何操作远程仓库？](./docs/basics/remote.md)
 1. [如何使用标签？](./docs/basics/tags.md)
-1. [How to set up alias?](docs/basics/alias.md)
+1. [如何使用别名？](docs/basics/alias.md)
 1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
 1. [Merging 和 Rebasing 有什么区别？](docs/merging_vs_rebasing.md)
