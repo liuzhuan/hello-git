@@ -107,6 +107,8 @@ $ git mv file_from file_to
 ```
 
 ## 查看提交历史
+[online reading](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+
 ```sh
 $ git log
 ```
@@ -166,4 +168,39 @@ $ git log --pretty=format:"%h - %an, %ar : %s"
 $ git log --since=2.weeks
 ```
 
-[To Be Continued](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+还可以设定一些日志输出的过滤条件，比如 `--author` 可以过滤特定作者，`--grep` 可以过滤提交信息的某些关键字。
+
+另一个有用的选项是 `-S`，即俗话说的“鹤嘴锄”选项，它的输入是一个字符串，输出是所有改变该字符串的提交。
+
+```sh
+$ git log -S function_name
+```
+
+还可以使用路径，将输出限定在指定路径的提交之中。通常，它是最后一个选项，之前会用 `--` 与参数做分隔。
+
+结合使用过滤选项，可以精确定位一些提交：
+
+```sh
+$ git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" --before="2008-11-01" --no-merges -- t/
+```
+
+## 撤销操作
+[online reading](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+
+如果要修改最近的提交信息，可以使用 `--amend` 选项：
+
+```sh
+$ git commit --amend
+```
+
+### 撤销暂存区的文件
+
+```sh
+$ git reset HEAD <file>
+```
+
+### 撤销编辑文件
+
+```sh
+$ git checkout -- <file>
+```
