@@ -7,6 +7,7 @@ Let's learn some git!
 1. [如何设置？](docs/basics/config.md)
 1. [如何基础操作？](docs/basics/abc.md)
 1. [如何操作远程仓库？](./docs/basics/remote.md)
+1. [如何使用标签？](./docs/basics/tags.md)
 1. [How to set up alias?](docs/basics/alias.md)
 1. [如何重写提交历史？](docs/history/rewrite.md)
 1. [如何设置多账户下的 ssh keys ？](docs/multiple-ssh-accounts.md)
@@ -16,7 +17,6 @@ Let's learn some git!
 1. [What is Git Hooks?](./docs/basics/customizing-git-git-hooks.md)
 1. [How to use submodules?](./books/pro-git/git-tools-submodules.md)
 1. [How to use git stash?](./docs/basics/git-stash-usage.md)
-1. [How to use tag?](./docs/basics/git-tag.md)
 1. [如何参与贡献开源项目？](./docs/contribute/README.md)
 1. [如何停止追踪仓库中已有的文件](docs/rm/README.md)
 
