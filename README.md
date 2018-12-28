@@ -22,6 +22,7 @@ Read, write and use git.
 1. [如何参与贡献开源项目？](./docs/contribute/README.md)
 1. [如何停止追踪仓库中已有的文件](docs/rm/README.md)
 1. [Git 的底层命令和高层指令是什么？](docs/internals/plumbing-and-porcelain.md)
+1. [什么是 GitWeb？](docs/server/gitweb.md)
 
 ## 教程列表
 1. [Git教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
